@@ -1,0 +1,21 @@
+# Instruções 
+
+# Abra o terminal ou prompt de comando, navegue até a pasta raiz da pasta e execute o comando abaixo para criar a imagem Docker:
+
+docker build -t image_data_lake .
+
+# Execute o comando abaixo para criar o container:
+
+docker run -dit --name governanca -v ./src:/aula image_data_lake
+
+# Dentro do container, configure as credenciais da AWS:
+
+aws configure
+
+# Execute o comando abaixo para alterar a permissão do arquivo e torná-lo executável:
+
+chmod +x executa.sh
+
+# Execute o script de automação:
+
+./executa.sh

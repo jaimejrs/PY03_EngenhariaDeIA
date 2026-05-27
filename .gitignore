@@ -1,0 +1,20 @@
+# Ambientes virtuais
+.venv/
+data/
+aula15/aula15/
+venv/
+venvs/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Arquivos de dados grandes ou temporários (opcional, mas recomendado)
+# *.csv
+# *.zip
