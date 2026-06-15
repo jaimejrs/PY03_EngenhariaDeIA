@@ -8,12 +8,19 @@ Capacitar você para atuar em projetos de dados ponta a ponta, desde a manipula�
 
 ##  Estrutura do repositório (O que foi feito até agora)
 
-O repositório está organizado por aulas e projetos práticos:
+O repositório está organizado por aulas, projetos e pipelines práticos:
 
-- `aula01` a `aula04`: notebooks e atividades introdutórias.
-- `aula05/projeto01`: primeiro projeto aplicado com análise em notebook e script Python.
-- `aula05/projeto02`: segundo projeto aplicado com automação e envio de e-mail.
-- `data`: bases de dados utilizadas nos exercícios.
+- `aula01` a `aula04`: Fundamentos de Python para análise de dados, manipulação com **NumPy** e **Pandas**, e Análise Exploratória de Dados (EDA).
+- `aula05`: Projetos aplicados de automação (análise de vendas e envio automático de e-mails de relatórios).
+- `aula06` e `aula07`: Introdução a Big Data, manipulação no ecossistema **Hadoop** e orquestração de fluxos de trabalho.
+- `dags`: Orquestração de pipelines e workflows de dados com **Apache Airflow** (ex: contratos, convênios).
+- `aula11` e `aula12`: Técnicas de raspagem de dados (**Web Scraping**), extração estruturada de informações e geração de relatórios.
+- `aula13`: Pipelines de carga de dados e análise enriquecida de histórico de vendas.
+- `aula15`: Pipeline de dados (ETL) integrado com **Docker** e **AWS S3**, cobrindo boas práticas de governança, qualidade de dados, linhagem de dados e observabilidade.
+- `aula16`: Introdução a modelagem preditiva utilizando **Regressão Linear** (simples e múltipla), simulação e avaliação gráfica de erros.
+- `aula17`: Modelagem preditiva com algoritmos de **Classificação** (ex: modelos de cancelamento de assinatura premium).
+- `aula18`: Projeto prático completo de modelagem preditiva e regressão para prever **Expectativa de Vida Global** (`life_expectancy_project`), comparando múltiplos regressores (Random Forest, Gradient Boosting, etc.) e simulando cenários para políticas públicas.
+- `data`: Bases de dados utilizadas nos exercícios práticos e projetos.
 
 ##  Trilhas de aprendizado da formação
 
